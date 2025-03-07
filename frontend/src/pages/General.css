@@ -1,0 +1,23 @@
+.form-input{
+    display: grid ;
+    height: 100px;
+    width: 40%;
+    margin: auto;
+    padding: 4px;
+}
+
+.signup-link{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.signup-direct{
+    text-decoration: none;
+    color: blueviolet;
+    box-shadow: 3px 3px 3px mediumpurple;
+    border-radius: 5%;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}

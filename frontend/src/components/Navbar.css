@@ -1,0 +1,47 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+    /* border: 2px solid black; */
+    background-color: rgba(43, 43, 154, 0.379);
+    color: antiquewhite;
+}
+
+.navbar-component{
+    text-decoration: none;
+    color: antiquewhite;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 3.5px;
+    border-radius: 10%;
+    
+}
+
+.logout-button{
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: -90px;
+    border-radius: 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(243, 232, 27);
+    font-weight: bolder;
+}
+
+.logout-button:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.Application-name{
+  font-variant: small-caps;
+  font-stretch: expanded;
+  color: rgb(0, 0, 0);
+}
